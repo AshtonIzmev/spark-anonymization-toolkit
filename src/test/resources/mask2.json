@@ -1,0 +1,20 @@
+{
+  "db": "db2",
+  "tables": [
+    {
+      "table": "tb1",
+      "limit": 3
+    },
+    {
+      "table": "tb2",
+      "limit": 2,
+      "columns": [
+        {
+          "column": "col1",
+          "classification": "sensible",
+          "policy": "hash"
+        }
+      ]
+    }
+  ]
+}
